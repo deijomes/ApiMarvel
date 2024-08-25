@@ -8,5 +8,6 @@ namespace WebAppMarvel.Servicios
         Task<MarvelApiResponse> GetPersonajesAsync();
 
         Task<MarvelApiResponse> GetPersonajeIdAsync(int id);
+        Task<MarvelApiResponse> GetPersonajeIdAsync(string id);
     }
 }
