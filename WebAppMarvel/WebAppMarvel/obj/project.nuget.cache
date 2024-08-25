@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tb1CzTOavqwtvWIjVBCaZQXqWAMWzY/+sVrdUXcyIQ+4SYGH4q8DJnBPszNZrET8HPRG8E4WNE8UdwFdeqHVog==",
+  "dgSpecHash": "bu6MOvESSzR8os3ANiUer6lXzsYEKhzhvCeBnptaDTTDvJwbUtQQ77WlrFg/Fu83Hsv0UxW+qbAv0PuVII2jMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Documents\\GitHub\\ApiMarvel\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

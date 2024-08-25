@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\source\\repos\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj": {}
+    "C:\\Users\\LENOVO\\Documents\\GitHub\\ApiMarvel\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\source\\repos\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj": {
+    "C:\\Users\\LENOVO\\Documents\\GitHub\\ApiMarvel\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\GitHub\\ApiMarvel\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj",
         "projectName": "WebAppMarvel",
-        "projectPath": "C:\\Users\\LENOVO\\source\\repos\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Documents\\GitHub\\ApiMarvel\\WebAppMarvel\\WebAppMarvel\\WebAppMarvel.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\source\\repos\\WebAppMarvel\\WebAppMarvel\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Documents\\GitHub\\ApiMarvel\\WebAppMarvel\\WebAppMarvel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
