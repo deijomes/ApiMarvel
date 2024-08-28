@@ -9,7 +9,7 @@ using WebAppMarvel.Servicios;
 
 namespace WebAppMarvel.Controllers
 {
-    [Route("api/serie")]
+    [Route("api/marvel")]
     [ApiController]
     public class SerieController : ControllerBase
     {
@@ -22,7 +22,7 @@ namespace WebAppMarvel.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet]
+        [HttpGet("serie")]
 
         public async Task<ActionResult<List<SerieDTO>>> getserie()
         {

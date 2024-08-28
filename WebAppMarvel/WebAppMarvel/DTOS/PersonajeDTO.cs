@@ -2,12 +2,10 @@
 
 namespace WebAppMarvel.DTOS
 {
-    public class SerieDTO
+    public class PersonajeDTO
     {
         public string Nombre { get; set; }
-       
-        public List<string> Series{ get; set; }
-
+        public string Description { get; set; }
         public thumbnail Thumbnail { get; set; }
     }
 }

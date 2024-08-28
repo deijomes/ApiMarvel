@@ -12,8 +12,27 @@ namespace WebAppMarvel.Utilidades
                .ConvertUsing(src => src.Data.Results.Select(result => new SerieDTO
                {
                    Nombre = result.Name.ToString(),
-                   Series = result.series.Items.Select(item => item.Name).ToList()
+                   Series = result.series.Items.Select(item => item.Name).ToList(),
+
                }).ToList());
+
+
+                CreateMap<MarvelApiResponse, List<PersonajeDTO>>()
+                .ConvertUsing(src => src.Data.Results.Select(result => new PersonajeDTO
+                {
+                     Nombre = result.Name,
+                     Description = result.Description,
+                     Thumbnail = new thumbnail
+                     {
+                      path = result.Thumbnail.path,
+                      extension = result.Thumbnail.extension
+                     }
+                }).ToList());
+
+
+
+
+
 
             CreateMap<MarvelApiResponse, SerieDTO>()
                  .ForMember(dest => dest.Nombre, opt => opt.MapFrom(src => src.Data.Results.FirstOrDefault().Name.ToString()))

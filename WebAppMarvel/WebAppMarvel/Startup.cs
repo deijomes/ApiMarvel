@@ -27,6 +27,15 @@ namespace WebAppMarvel
 
             });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin",
+                    builder => builder.WithOrigins("http://localhost:54432")
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader());
+            });
+
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
 
@@ -45,6 +54,8 @@ namespace WebAppMarvel
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowSpecificOrigin");
 
             app.UseRouting();
 
